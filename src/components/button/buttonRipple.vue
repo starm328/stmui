@@ -1,7 +1,7 @@
 <template>
 	<button class="stm-button" :class="[{'default':type},classNames]" :style="{'background-color': bgcolor,color:color,height:size + 'px','line-height': size + 'px'}" ref="button">
 			<slot></slot>
-			<ripple :trigger="tooltipTrigger" :color="color"></ripple>
+			<ripple></ripple>
 	</button>
 </template>
 

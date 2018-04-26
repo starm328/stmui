@@ -7,7 +7,7 @@
 		<stm-scroll-view :topHeight="190">
 			<stm-fold-group title="基础" radius>
 				<stm-fold-row>
-					<stm-cell text="布局" type="link" href="/layout"></stm-cell>
+					<stm-cell text="布局"  type="a"></stm-cell>
 				</stm-fold-row>
 				<stm-fold-row>
 					<stm-cell text="按钮" type="link" href="/button"></stm-cell>
