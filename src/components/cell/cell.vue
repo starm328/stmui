@@ -3,14 +3,14 @@
 		<div class="stm-cell-title">
 			<span class="stm-cell-text">{{text}}</span>
 		</div>
-		<ripple :trigger="tooltipTrigger" color="rgba(168, 168, 168, 0.4)"></ripple>
+		<ripple></ripple>
 	</div>
 	<router-link :to="href" class="stm-cell" v-else-if="type == 'link'" >
 		<div ref="button">
 			<div class="stm-cell-title">
 				<span class="stm-cell-text">{{text}}</span>
 			</div>
-			<ripple :trigger="tooltipTrigger" color="rgba(168, 168, 168, 0.4)"></ripple>
+			<ripple></ripple>
 		</div>
 
 	</router-link>
